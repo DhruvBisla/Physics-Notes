@@ -1,0 +1,22 @@
+name: Build
+
+on: [pull_request, push]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        run: |
+          echo "FILELIST=$(printf '"%s" ' $(pwd)/content/*.md)" >> $GITHUB_ENV
+      - name: Convert with Pandoc
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: --output=notes.pdf ${{ env.FILELIST }}
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: Notes
+          path: ./notes.pdf
