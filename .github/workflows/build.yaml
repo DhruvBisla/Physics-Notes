@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-        run: |
+      - run: |
           echo "FILELIST=$(printf '"%s" ' $(pwd)/content/*.md)" >> $GITHUB_ENV
       - name: Convert with Pandoc
         uses: docker://pandoc/latex:2.9
