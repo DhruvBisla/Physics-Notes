@@ -10,8 +10,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - run: |
-          cat $(pwd)/content/test.md
-          echo "FILELIST=$(printf '"%s" ' $(pwd)/content/*.md)" >> $GITHUB_ENV
+          cat content/test.md
+          echo "FILELIST=$(printf '"%s" ' content/*.md)" >> $GITHUB_ENV
       - name: Convert with Pandoc
         uses: docker://pandoc/latex:2.9
         with:
