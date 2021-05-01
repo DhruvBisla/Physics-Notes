@@ -6,6 +6,7 @@ default:
 build:
 	pandoc content/*.md -o notes.pdf
 
-dev:
-	while true; do pandoc content/*.md -o notes.pdf; sleep 2; done
+dev: build
+	while true; do watch -d -t -g ls -lR content/ && pandoc content/*.md -o notes.pdf; sleep 2; done
+# while true; do pandoc content/*.md -o notes.pdf; sleep 3; done
 # watch -n0.2 "watch -d -t -g ls -lR content/ && pandoc content/*.md -o notes.pdf"
