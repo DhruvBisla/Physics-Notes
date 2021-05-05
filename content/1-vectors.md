@@ -29,7 +29,7 @@ $\vec{s} = \vec{u} + \vec{v} + \vec{w}$
 
 Assuming each vector has two dimensions, the sum may resolved into components:
 
-$\vec{s} = \vcompx{u}\vcompx{v}\vcompx{w} + \vcompy{u}\vcompy{v}\vcompy{w} + \vcompz{u}\vcompz{v}\vcompz{w}$
+$\vec{s} = \vcompx{u}\vcompx{v}\vcompx{w}\ihat + \vcompy{u}\vcompy{v}\vcompy{w}\jhat$
 
 __Subtraction:__
 
