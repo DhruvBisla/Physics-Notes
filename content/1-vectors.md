@@ -1,23 +1,23 @@
 # Vectors
 
-__Definition:__ A quantity with **magnitude** and **direction**
+**Definition:** A quantity with **magnitude** and **direction**
 
-__Properties:__
+**Properties:**
 
-1. $\vcompx{v}$ and $\vcompy{v}$ are the *components* of $\vec{v}$
-2. $\mag{v}$ and $\theta$ are the *magnitude* and *angle* (in standard position) of $\vec{v}$
+1. $\vcompx{v}$ and $\vcompy{v}$ are the _components_ of $\vec{v}$
+2. $\mag{v}$ and $\theta$ are the _magnitude_ and _angle_ (in standard position) of $\vec{v}$
 
-__Notation:__
+**Notation:**
 
-| Representation For Any Vector: | $\vec{v}$   |
-| ------------------------------ | ----------- |
+| Representation For Any Vector: | $\vec{v}$      |
+| ------------------------------ | -------------- |
 | Cartesian Component Form       | $\vectwocv{v}$ |
-| Unit Vector Form               | $\vecij{v}$ |
+| Unit Vector Form               | $\vecij{v}$    |
 | Polar Form                     | $\vectwopv{v}$ |
 
 ## Vector Operations
 
-__Addition:__
+**Addition:**
 
 Graphically, vector addition is the vector from the origin to the tip of the last addend vector, where each of the addend vectors' tails are placed at the head of the previous, beginning from the origin.
 
@@ -31,25 +31,33 @@ Assuming each vector has two dimensions, the sum may resolved into components:
 
 $\vec{s} = \vcompx{u}\vcompx{v}\vcompx{w}\ihat + \vcompy{u}\vcompy{v}\vcompy{w}\jhat$
 
-__Subtraction:__
+**Subtraction:**
 
 The vector difference can be expressed as the sum of the minuend and the additive inverse of the subtrahend; this renders a difference as a sum.
 
-__Scalar Multiplication:__
+**Scalar Multiplication:**
 
 Scalar multiplication of a vector changes merely the magnitude of that vector for scale factors, $k$, where $k > 0$. For $k < 0$, the vector is scaled and its direction is reversed.
 
-__Normalization:__
+**Normalization:**
 
 A vector can be expressed in terms of a unit vector in the same direction. Any vector, $\vec{v}$, may be represented as $\vectwoc{\mag{v}\cos\theta}{\mag{v}\sin\theta}$. Thus, the unit vector, $\hat{v}$, is merely $\vectwoc{\cos\theta}{\sin\theta}$. Then, $\hat{v} = \frac{1}{\mag{v}}\vec{v}$.
 
-__Dot Product:__
+**Dot/Scalar Product:**
 
-Intuitively, the dot product is like projecting a vector, $\vec{v}$ onto another, $\vec{w}$ and then scaling $\vec{v}$ in the direction of $\vec{w}$ as if $\vec{w}$ is a unit vector.
+Intuitively, the dot product is like projecting a vector, $\vec{v}$ onto another, $\vec{w}$ and then scaling $\vec{v}$ in the direction of $\vec{w}$ as if $\vec{w}$ is a unit vector in its span.
 
 The dot product is defined in two ways:
 
 1. $\vec{v}\cdot\vec{w} = \vcompx{v}\vcompx{w} + \vcompy{v}\vcompy{w}$
 2. $\vec{v} \cdot \vec{w} = \mag{v}\mag{w}\cos\theta$
 
-As is seen clearly in the last equation, the dot product can be interpreted as a measure of parallel two vectors are. It can be used as a measure of orthogonality, with  $\cos\frac{\pi}{2}$ equal to 0, thus making the dot product of two orthogonal vectors equal to zero.
+As is seen clearly in the last equation, the dot product can be interpreted as a measure of parallel two vectors are. It can be used as a measure of orthogonality, with $\cos\frac{\pi}{2}$ equal to 0, thus making the dot product of two orthogonal vectors equal to zero.
+
+**Cross/Vector Product:**
+
+The cross product is defined in the following ways:
+
+1. $\vec{v}\times\vec{w} = \mag{v}\mag{w}\sin\theta$
+
+Note that $\vec{v}\times\vec{w}$ is not the same as $\vec{w}\times\vec{v}$ by a factor of -1. The resulting vector is orthogonal to $\vec{v}$ and $\vec{w}$ and adheres to the right hand rule, where $\vec{v}$ is represented by the index finger and $\vec{w}$ by the middle.

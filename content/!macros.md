@@ -10,3 +10,5 @@
 \newcommand{\ihat}{\hat{\imath}}
 \newcommand{\jhat}{\hat{\jmath}}
 \newcommand{\khat}{\hat{k}}
+\newcommand{\rad}[1]{\SI{#1}{\radian}}
+
