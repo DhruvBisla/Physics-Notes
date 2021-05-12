@@ -17,4 +17,3 @@ install-ubuntu:
 		texlive-latex-extra \
 		texlive-science \
 		pandoc
-		

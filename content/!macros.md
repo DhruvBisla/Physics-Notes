@@ -1,3 +1,4 @@
+\sisetup{per-mode = symbol, bracket-unit-denominator = false}
 \renewcommand{\mag}[1]{\|\vec{#1}\|}
 \newcommand{\vcompx}[1]{#1_x}
 \newcommand{\vcompy}[1]{#1_y}
@@ -11,4 +12,8 @@
 \newcommand{\jhat}{\hat{\jmath}}
 \newcommand{\khat}{\hat{k}}
 \newcommand{\rad}[1]{\SI{#1}{\radian}}
-
+\renewcommand{\m}[1]{\SI{#1}{\meter}}
+\newcommand{\mps}[1]{\SI{#1}{\metre\per\second}}
+\newcommand{\mpss}[1]{\SI{#1}{\metre\per\square\second}}
+\newcommand{\D}[1]{\Delta #1}
+\newcommand{\average}[1]{#1_{\text{avg}}}

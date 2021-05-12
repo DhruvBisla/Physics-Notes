@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-      - run: |
-          echo "FILELIST=$(printf '"%s" ' content/*.md)" >> $GITHUB_ENV
+      # - run: |
+      #     echo "FILELIST=$(printf '"%s" ' content/*.md)" >> $GITHUB_ENV
       - name: Install Pandoc
         run: make install-ubuntu
       - name: Build with Pandoc

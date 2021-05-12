@@ -4,8 +4,8 @@
 
 **Properties:**
 
-1. $\vcompx{v}$ and $\vcompy{v}$ are the _components_ of $\vec{v}$
-2. $\mag{v}$ and $\theta$ are the _magnitude_ and _angle_ (in standard position) of $\vec{v}$
+1. $\vcompx{v}$ and $\vcompy{v}$ are the *components* of a two-dimensional vector, $\vec{v}$
+2. $\mag{v}$ and $\theta$ are the *magnitude* and *angle* (in standard position) of a two-dimensional vector, $\vec{v}$
 
 **Notation:**
 
@@ -25,11 +25,11 @@ When adding vectors, the respective components of each of the addend vectors are
 
 Example:
 
-$\vec{s} = \vec{u} + \vec{v} + \vec{w}$
+$$\vec{s} = \vec{u} + \vec{v} + \vec{w}$$
 
-Assuming each vector has two dimensions, the sum may resolved into components:
+Assuming each vector is two-dimensional, the sum may resolved into components:
 
-$\vec{s} = \vcompx{u}\vcompx{v}\vcompx{w}\ihat + \vcompy{u}\vcompy{v}\vcompy{w}\jhat$
+$$\vec{s} = \vcompx{u}\vcompx{v}\vcompx{w}\ihat + \vcompy{u}\vcompy{v}\vcompy{w}\jhat$$
 
 **Subtraction:**
 
@@ -49,8 +49,8 @@ Intuitively, the dot product is like projecting a vector, $\vec{v}$ onto another
 
 The dot product is defined in two ways:
 
-1. $\vec{v}\cdot\vec{w} = \vcompx{v}\vcompx{w} + \vcompy{v}\vcompy{w}$
-2. $\vec{v} \cdot \vec{w} = \mag{v}\mag{w}\cos\theta$
+$$\vec{v}\cdot\vec{w} = \vcompx{v}\vcompx{w} + \vcompy{v}\vcompy{w}$$
+$$\vec{v} \cdot \vec{w} = \mag{v}\mag{w}\cos\theta$$
 
 As is seen clearly in the last equation, the dot product can be interpreted as a measure of parallel two vectors are. It can be used as a measure of orthogonality, with $\cos\frac{\pi}{2}$ equal to 0, thus making the dot product of two orthogonal vectors equal to zero.
 
@@ -58,6 +58,6 @@ As is seen clearly in the last equation, the dot product can be interpreted as a
 
 The cross product is defined in the following ways:
 
-1. $\vec{v}\times\vec{w} = \mag{v}\mag{w}\sin\theta$
+$$\vec{v}\times\vec{w} = \mag{v}\mag{w}\sin\theta$$
 
 Note that $\vec{v}\times\vec{w}$ is not the same as $\vec{w}\times\vec{v}$ by a factor of -1. The resulting vector is orthogonal to $\vec{v}$ and $\vec{w}$ and adheres to the right hand rule, where $\vec{v}$ is represented by the index finger and $\vec{w}$ by the middle.
