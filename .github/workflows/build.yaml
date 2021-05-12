@@ -11,12 +11,16 @@ jobs:
         uses: actions/checkout@v2
       - run: |
           echo "FILELIST=$(printf '"%s" ' content/*.md)" >> $GITHUB_ENV
-      - name: Convert with Pandoc
-        uses: docker://pandoc/latex:2.9
-        run: |
-          sudo apt -y install texlive-science
-        with:
-          args: --output=notes.pdf ${{ env.FILELIST }}
+      - name: Install Pandoc
+        run: make install-ubuntu
+      - name: Build with Pandoc
+        run: make build
+      # - name: Convert with Pandoc
+      #   uses: docker://pandoc/latex:2.9
+      #   run: |
+      #     sudo apt -y install texlive-science
+      #   with:
+      #     args: --output=notes.pdf ${{ env.FILELIST }}
       - name: Upload PDF
         uses: actions/upload-artifact@v2
         with:
