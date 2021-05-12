@@ -13,6 +13,6 @@ dev: build
 
 install-ubuntu:
 	sudo apt-get install -y \
-		texlive-science
+		texlive-science \
 		pandoc
 		
