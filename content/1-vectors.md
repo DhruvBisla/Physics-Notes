@@ -4,16 +4,16 @@
 
 **Properties:**
 
-1. $\vcompx{v}$ and $\vcompy{v}$ are the *components* of a two-dimensional vector, $\vec{v}$
-2. $\mag{v}$ and $\theta$ are the *magnitude* and *angle* (in standard position) of a two-dimensional vector, $\vec{v}$
+1. $\vcompx{v}$ and $\vcompy{v}$ are the _components_ of a two-dimensional vector, $\vec{v}$
+2. $\mag{v}$ and $\theta$ are the _magnitude_ and _angle_ (in standard position) of a two-dimensional vector, $\vec{v}$
 
 **Notation:**
 
-| Representation For Any Vector: | $\vec{v}$      |
-| ------------------------------ | -------------- |
-| Cartesian Component Form       | $\vectwocv{v}$ |
-| Unit Vector Form               | $\vecij{v}$    |
-| Polar Form                     | $\vectwopv{v}$ |
+| Representation For Any (2D) Vector: | $\vec{v}$      |
+| ----------------------------------- | -------------- |
+| Cartesian Component Form            | $\vectwocv{v}$ |
+| Unit Vector Form                    | $\vecij{v}$    |
+| Polar Form                          | $\vectwopv{v}$ |
 
 ## Vector Operations
 

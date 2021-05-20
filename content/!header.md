@@ -8,4 +8,7 @@ header-includes:
   - \usepackage{graphicx}
   - \graphicspath{{images/}}
   - \usepackage{float}
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{pifont}
 ---

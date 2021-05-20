@@ -1,8 +1,10 @@
 \sisetup{per-mode = symbol, bracket-unit-denominator = false}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
 \renewcommand{\mag}[1]{\|\vec{#1}\|}
-\newcommand{\vcompx}[1]{#1_x}
-\newcommand{\vcompy}[1]{#1_y}
-\newcommand{\vcompz}[1]{#1_z}
+\newcommand{\vcompx}[1]{#1{_{x}}}
+\newcommand{\vcompy}[1]{#1{_{y}}}
+\newcommand{\vcompz}[1]{#1{_{z}}} 
 \newcommand{\vectwoc}[2]{\langle #1, #2 \rangle}
 \newcommand{\vectwocv}[1]{\langle \vcompx{#1}, \vcompy{#1} \rangle}
 \newcommand{\vecij}[1]{\vcompx{#1} \ihat + \vcompy{#1} \jhat}

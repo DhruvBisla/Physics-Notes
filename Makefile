@@ -1,4 +1,4 @@
-.PHONY: default, build-pdf
+.PHONY: default, build, dev, install-ubuntu
 
 default:
 	pandoc
