@@ -52,7 +52,7 @@ The dot product is defined in two ways:
 $$\vec{v}\cdot\vec{w} = \vcompx{v}\vcompx{w} + \vcompy{v}\vcompy{w}$$
 $$\vec{v} \cdot \vec{w} = \mag{v}\mag{w}\cos\theta$$
 
-As is seen clearly in the last equation, the dot product can be interpreted as a measure of parallel two vectors are. It can be used as a measure of orthogonality, with $\cos\frac{\pi}{2}$ equal to 0, thus making the dot product of two orthogonal vectors equal to zero.
+As is seen clearly in the last equation, the dot product can be interpreted as a measure of how parallel two vectors are. It can be used as a measure of orthogonality; since $\cos\frac{\pi}{2}$ equal to zero, the dot product of two orthogonal vectors is equal to zero.
 
 **Cross/Vector Product:**
 

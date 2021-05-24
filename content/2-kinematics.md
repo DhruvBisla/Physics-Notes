@@ -12,6 +12,8 @@ Displacement, by definition, is a vector, with magnitude equal to the distance f
 
 ## Velocity
 
+**Units:** $t/s$, e.g., $\mps{10}$
+
 ### Average Velocity
 
 **Definition:** The average rate at which position changes with time.
@@ -20,7 +22,7 @@ Displacement, by definition, is a vector, with magnitude equal to the distance f
 
 $$\average{\vec{v}} = \frac{\vec{\D{x}}}{\D{t}}$$
 
-Since the displacement, $\vec{\D{x}}$, is a vector, average velocity may be interpreted as the scalar product of the vector, $\vec{\D{x}}$ and the scalar, $\D{t}$. This renders the average velocity, $\average{\vec{v}}$, a vector.
+Since the displacement, $\vec{\D{x}}$, is a vector, average velocity may be interpreted as the scalar product of the vector, $\vec{\D{x}}$ and the scalar, $\frac{1}{\D{t}}$. This renders the average velocity, $\average{\vec{v}}$, a vector.
 
 ### Instantaneous Velocity
 
@@ -30,7 +32,7 @@ Since the displacement, $\vec{\D{x}}$, is a vector, average velocity may be inte
 
 $$\vec{v} = \lim_{\D{t}\to 0}\frac{\vec{\D{x}}}{\D{t}} = \frac{d\vec{x}}{dt}$$
 
-In other words, velocity is the derivative of displacement with respect to time. The **speed** is simply the magnitude of the instantaneous velocity, $\mag{\vec{v}}$.
+In other words, velocity is the derivative of displacement with respect to time. **Speed** is simply the magnitude of the instantaneous velocity, $\mag{\vec{v}}$.
 
 ## Acceleration
 
@@ -44,7 +46,7 @@ In other words, velocity is the derivative of displacement with respect to time.
 
 $$\average{\vec{a}} = \frac{\vec{\D{v}}}{\D{t}}$$
 
-Since the velocity, $\vec{\D{v}}$, is a vector, average acceleration may be interpreted as the scalar product of the vector, $\vec{\D{v}}$ and the scalar, $\D{t}$. This renders the average velocity, $\average{\vec{a}}$, a vector.
+Since the velocity, $\vec{\D{v}}$, is a vector, average acceleration may be interpreted as the scalar product of the vector, $\vec{\D{v}}$ and the scalar, $\frac{1}{\D{t}}$. This renders the average velocity, $\average{\vec{a}}$, a vector.
 
 ### Instantaneous Acceleration
 
@@ -106,7 +108,6 @@ Each of the four derived equations, also included below, form the main kinematic
         \end{tabular}
 \end{table}
 
-
 In two dimensions, the equations listed above apply for both components of any particle's motion, as long as its acceleration remains constant in both dimensions. Likewise, in three dimensions, under the same criteria, these equations apply to all three components. As an example in two dimensions, see the component form of $\vec{v_f} = v_0 + \vec{a}\D{t}$.
 
 $$\vec{v_f} = \ihat(\vcompx{v_0} + \vcompx{a}t) + \jhat(\vcompy{v_0} + \vcompy{a}t) = (\ihat\vcompx{v_0} + \jhat\vcompy{v_0}) + (\ihat\vcompx{a} + \jhat\vcompy{a})t$$
@@ -114,4 +115,3 @@ $$\vec{v_f} = \ihat(\vcompx{v_0} + \vcompx{a}t) + \jhat(\vcompy{v_0} + \vcompy{a
 Intuitively, the last equality makes sense because it is the sum of the components of $\vec{v_0}$ added to the sum of the components of $\vec{a}$, multiplied by $t$.
 
 Notice that in all but the last equation, the parameter is the time, $t$. 
-
