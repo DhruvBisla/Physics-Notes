@@ -12,7 +12,7 @@ Displacement, by definition, is a vector, with magnitude equal to the distance f
 
 ## Velocity
 
-**Units:** $t/s$, e.g., $\mps{10}$
+**Units:** $d/t$ or $\mps{1}$
 
 ### Average Velocity
 
@@ -36,7 +36,7 @@ In other words, velocity is the derivative of displacement with respect to time.
 
 ## Acceleration
 
-**Units:** $t/s^2$, e.g., $\mpss{10}$
+**Units:** $d/s^2$ or $\mpss{1}$
 
 ### Average Acceleration
 

@@ -15,7 +15,7 @@ As with the previous, this section assumes that the  body in question is idealiz
 
 ## Force
 
-**SI Units:** $\kgmpss{1}$ or $\N{1}$
+**SI Units:** $md/t^2$ or $\kgmpss{1}$ or $\N{1}$
 
 **Definition** The environmental action that produces an acceleration.
 
