@@ -20,5 +20,7 @@
 \renewcommand{\kg}[1]{\SI{#1}{\kilogram}}
 \newcommand{\kgmpss}[1]{\SI{#1}{\kilogram\metre\per\square\second}}
 \renewcommand{\N}[1]{\SI{#1}{\newton}}
+\newcommand{\Nm}[1]{\SI{#1}{\newton\metre}}
+\renewcommand{\J}[1]{\SI{#1}{\joule}}
 \newcommand{\D}[1]{\Delta #1}
 \newcommand{\average}[1]{#1_{\text{avg}}}

@@ -3,12 +3,7 @@ title: Physics Notes
 author: Dhruv Bisla
 date: \today
 header-includes:
-  - \usepackage{siunitx}
-  - \usepackage{caption}
-  - \usepackage{graphicx}
+  - \usepackage{siunitx, caption, graphicx, float, amsmath, amssymb, pifont, microtype}
+  - \usepackage[margin=1.375in]{geometry}
   - \graphicspath{{images/}}
-  - \usepackage{float}
-  - \usepackage{amsmath}
-  - \usepackage{amssymb}
-  - \usepackage{pifont}
 ---
